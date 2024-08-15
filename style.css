@@ -45,19 +45,23 @@
   #root, #__next {
     isolation: isolate;
   }
+  
+  /* Code Starts Here */
 
   body {
     display: flex;
     flex-direction: column;
   }
-  
+
   .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
   }
 
-  .nav {
+  /* Hero */
+
+  .hero {
     display: flex;
     flex-direction: row;
     align-items: center;
