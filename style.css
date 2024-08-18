@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 550px;
+    height: 600px;
   }
 
   /* Hero */
@@ -140,5 +140,48 @@
     width: 120px;
     color: #E5E7EB;
     font-weight: bolder;
+  }
+
+  /* Hero End */
+  /* Examples */
+
+  .examples {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 780px;
+  }
+
+  .examples-title {
+    font-size: 30px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-bottom: 30px;
+  }
+
+  .examples-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desc {
+    width: 290px;
+    text-align: center;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  } 
+
+  .block img {
+    width: 350px;
+    height: 200px;
   }
 
