@@ -52,7 +52,7 @@
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
-    zoom: 110%;
+    zoom: 105%;
   }
 
   .hero-container {
@@ -150,7 +150,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 780px;
+    height: 850px;
   }
 
   .examples-title {
@@ -185,3 +185,34 @@
     height: 200px;
   }
 
+  .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+  }
+  
+  .quote-content {
+    width: 700px;
+  }
+
+  .quote-content p{
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+  }
+
+  .quote-speaker {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 700px;
+  }
+
+  .quote-speaker p {
+    margin-top: 20px;
+    font-size: 25px;
+  }
