@@ -195,7 +195,7 @@
   }
   
   .quote-content {
-    width: 700px;
+    width: 900px;
   }
 
   .quote-content p{
@@ -215,4 +215,39 @@
   .quote-speaker p {
     margin-top: 20px;
     font-size: 25px;
+  }
+
+  /* quote ends here */
+  /* cta starts here */
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+  }
+
+  .cta-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 130px;
+    border-radius: 6px;
+  }
+
+  .cta-content {
+    color: #E5E7E8;
+    font-size: 20px;
+  }
+
+  .cta-button button {
+    background-color: transparent;
+    border: 2px solid #E5E7E8;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    color: #E5E7E8;
   }
